@@ -1,0 +1,88 @@
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.mainWrap {
+    height: 100%;
+}
+
+.mainTitle {
+    margin-bottom: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+}
+
+.input {
+    border: 2px solid transparent;
+    outline: none;
+    padding: 8px 30px;
+    border-radius: 32px;
+    font-size: 1.5rem;
+    color: #6859DD;
+  }
+  
+  .input:focus {
+    border: 2px solid #6859DD;
+  }
+  
+  .input:hover {
+    -webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+        box-shadow: 0px 5px 5px 0px rgba(50, 50, 50, 0.75);
+    transition: ease .5s;
+  }
+
+.mainSearch {
+    display: flex;
+    height: 100%;
+    border-radius: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+    margin-top: 70px;
+}
+
+.searchItem {
+    min-width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    transition: ease .5s;
+    padding: 20px;
+    background: #fff;
+}
+
+.searchItem:hover {
+    -webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+        box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+}
+
+.searchItem:not(:last-child) {
+    margin-bottom: 30px;
+}
+
+.userAvatar {
+    height: 100px;
+    width: 100px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.userName {
+    font-size: 0.9rem;
+    transition: ease-in .2s all;
+}
+
+.userName:hover {
+    cursor: pointer;
+    border-bottom: 1px solid #000;
+}
+
+.userRepos {
+    font-size: .9rem;
+    font-weight: 400;
+}
